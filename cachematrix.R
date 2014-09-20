@@ -28,7 +28,6 @@ makeCacheMatrix <- function(m = matrix()) {
        getInvM = getInvM)
 }
 
-
 # This function calculates the inverse of a special "matrix" created by 
   # 'makeCacheMatrix.R' function
 # The function first checks if the inverse of the matrix is already calculated
