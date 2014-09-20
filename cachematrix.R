@@ -1,8 +1,8 @@
 # This function creates a special "matrix"
 # The input of the function is an invertible matrix
 # The outputs of the function are list of functions, which are used to set
-# a the value of a matrix, get the value of a matirx, set the inverse of
-# the matrix and get the inverse of the matrix
+  # a the value of a matrix, get the value of a matirx, set the inverse of
+  # the matrix and get the inverse of the matrix
 
 makeCacheMatrix <- function(m = matrix()) {
   InvM <- NULL
@@ -30,10 +30,10 @@ makeCacheMatrix <- function(m = matrix()) {
 
 
 # This function calculates the inverse of a special "matrix" created by 
-# 'makeCacheMatrix.R' function
+  # 'makeCacheMatrix.R' function
 # The function first checks if the inverse of the matrix is already calculated
-# If the inverse exists, it get the inverse from the cache. If not, it calculates 
-# the inverse of the matrix and pass it to cache through the 'setInvM' function.
+  # If the inverse exists, it get the inverse from the cache. If not, it calculates 
+  # the inverse of the matrix and pass it to cache through the 'setInvM' function.
 # The input of the function is the special "Matrix"
 # the output of the function is inverse of the matrix (either from cache or calculated)
 
